@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.color_bg {
+  height: 100vh;
+    background: #00B0F2;
+  }
+  .color_bg2 {
+    background: #003F56;
+  }
+    .form-input input {
+    border-radius: .8rem;
+    border: none;
+    margin-top: 3vh;
+    padding:3%;
+    background-color: #f0f0f0f1;
+    width: 25vw;
+    }
+    .login-button  {
+    color: #ffff;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 2rem;
+    border: none;
+    margin-top: 4vh;
+    padding:3%;
+    transition: all .3s ease-in-out;
+    border: solid #003F56 .2rem;
+    background-color: #00719D;
+    }
+    .login-button:hover{
+      background-color: #003F56;
+    }
+    .form-input a{
+    width: 10vw;
+    margin-top: 2vh;
+    text-decoration: none ;
+    }
+    .background_DataWake{
+    background: linear-gradient(332deg, #1dc3ff1f 0%, #009cd44f 80%);
+    border-radius: 5%;
+    backdrop-filter: blur(0.6em);
+    width: 30vw;
+    height: auto;
+    overflow: hidden;
+    padding: 2em;
+    }
+    .circulo{
+    background: linear-gradient(30deg, #00395fb7 10%, #f3f3f3d2 45%, #afafaf71 100%);
+    border-radius: 20em;
+    width: 7vw;
+    height: 14vh;
+    }
+    .circulo img{
+      padding: 0;
+      margin: 0;
+      width: 60%;
+      }
+    #cargoid{
+      border-radius: .8rem;
+      border: none;
+      margin-top: 3vh;
+      padding:3%;
+      background-color: #f0f0f0f1;
+      width: 15vw;
+    }
+    .font-link-css{
+      font-family: 'Montserrat', sans-serif;
+      color: #2b2b2b;
+      font-size: .8rem;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+    }
+    .font-link-css:hover{
+      transition: all .3s ease;
+      color: #eeeeee;
+    }
+    
+    /* Modal */
+    .background_DataWake-2 {
+        background:  #03a5e0;
+
+    }
+    .modal {
+      backdrop-filter: blur(0.6em); 
+      
+  }
+  .modal-content-css{
+    background: linear-gradient(11deg, #034258 0%, #00b0f2 100%);
+    padding: 5%;
+  }

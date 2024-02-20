@@ -1,0 +1,193 @@
+
+/********card-home-success***********/
+.card-home-back-success{
+    width: 28%;
+    height: 19vh;
+    border-radius: 2em;
+    background: #067a44;
+    display: flex;
+    justify-content: flex-end;
+}
+.card-home-front-success{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 98%;
+    height: auto;
+    border-radius: 2em;
+    background: #003F56;
+    padding: 0% 3% 0% 3%;
+    cursor: pointer;
+}
+.card-home-front-success:hover{
+    transition: all .6s;
+    background: #002a3a;
+
+}
+.w-form{
+    width: 50%;
+}
+/**********MODO DARK***********/
+.dark .card-home-back-success{
+    display: flex;
+}
+.dark .card-home-front-success{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: auto;
+    border-radius: 2em;
+    padding: 5%;
+    background: #414141;
+    border: 1px solid #067a44;
+    box-shadow: 0px 0px 10px 0px #00914d;
+    transition: all .4s ease;
+}
+
+/************MODAL CONSULTAS APROVADOS E DESAPROVADOS*********/
+
+.modal {
+    backdrop-filter: blur(0.4em);
+}
+.modal-dialog-aprov{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: #fafafa;
+    border: 0.15em solid #00bbff;
+    border-radius: 1em;
+    padding: 2em;
+    max-width: 0;
+    margin: 0 ;
+    min-width: 70em;
+}
+.dark .modal-dialog-aprov{
+    background-color: #001d28;
+
+}
+.modal-dialog-css{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: #fafafa;
+    border: .15em solid #067a44;
+    border-radius: 1em;
+    padding: 2em;
+    max-width: 0;
+    margin: 0 ;
+    min-width: 70em;
+}
+.modal-header-css{
+    background-color: #fafafa;
+    
+}
+.modal-body-css{
+    background-color: #fafafa;
+}
+
+/******MODAL DARK****** */
+.dark #font-css{
+    color: #f0f0f0;
+}
+
+.dark .modal-dialog-css-success{
+    box-shadow: 0px 0px 10px 0px #029b54;
+}
+.dark #modal-warning{
+    box-shadow: 0px 0px 10px 0px #fabf0fe0;
+}
+.dark .modal-dialog-css{
+    background-color: #001d28;
+}
+
+.dark .modal-header-css{
+    background-color: #001d28;
+}
+    
+ .dark .modal-body-css{
+    background-color: #001d28;
+ }
+ .dark #exampleModalLabel{
+    color: #F0F5F6;
+ }
+ .dark .btn-close{
+    cursor: pointer;
+    z-index: 1;
+    background-color: #f50000;
+ }
+
+ .listagem-back-green {
+     display: flex;
+     width: 75vw;
+     height: 9vh;
+     border-radius: 17px;
+     background: #067a44;
+     border: 1px solid #067a44;
+     justify-content: flex-end;
+     align-items: center;
+     overflow: hidden;
+ }
+ 
+ .listagem-front-white-green{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     width: 74.3vw;
+     height: 9vh;
+     padding: 0% 2% 0% 2%;
+     border-radius: 17px;
+     background: #F8F8F8;
+ }
+ 
+ .listagem-front-white-green a:hover{
+     color: inherit;
+ }
+
+ /***********DARK-MODE-HOME************ */
+ 
+ .dark .titulo{
+     color: #F0F5F6;
+     filter: drop-shadow(0px 0px 3px #ffffff49);
+ }
+ .dark .font-css{
+     color: #2b2b2b;
+ }
+ .dark .font-css-dark{
+     color: #F0F5F6;
+ }
+ .dark .card-home-front{
+     display: flex;
+     align-items: center;
+     justify-content: flex-start;
+     height: auto;
+     border-radius: 2em;
+     background: #414141;
+     box-shadow: 0px 0px 10px 0px #00b1f2ee;
+     border: 1px solid #00bbff;
+     transition: all .4s ease;
+ }
+ .dark .listagem-back-green {
+     box-shadow: 0px 0px 9px 0px #067a44;
+ }
+ .dark .listagem-front-white-green:hover {
+     background-color: #414141;
+     cursor: pointer;
+     color:#F0F5F6 ;
+     transition: all .4s ease-in-out;
+ }
+ .dark .listagem-front-white-green:hover span {
+     color:#F0F5F6 ;
+     transition: all .4s ease-in-out;
+ }
+ .dark .listagem-front-white-green:hover a {
+     color:#F0F5F6 ;
+     transition: all .4s ease-in-out;
+ }
+ .dark .listagem-front-white-green:hover .font-id-css{
+     color: #F0F5F6;
+ }
+ 

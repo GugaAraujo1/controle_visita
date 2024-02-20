@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/***********home********* */
+.titulo {
+    font-family: 'Montserrat', sans-serif;
+    color: #2b2b2b;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.titulo-card {
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    color: #ECECEC;
+    padding-left: 5%;
+}
+
+#div_img {
+    width: 6%;
+    height: 11vh;
+    background-size: cover;
+    background-image: url("../Img/DW-Black.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.dark #div_img {
+    width: 6%;
+    height: 11vh;
+    background-image: url("../Img/DW-White.png");
+    transition: all .7s ease-in-out;
+
+}
+
+.card-home-back {
+    width: 28%;
+    height: 19vh;
+    border-radius: 2em;
+    background: #00B0F2;
+    display: flex;
+}
+
+.card-home-front-home {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 98%;
+    height: auto;
+    border-radius: 2em;
+    background: #003F56;
+}
+
+#cursor {
+    cursor: pointer;
+}
+
+.dark #back-yellow {
+    border: #FFC107 solid 1px;
+}
+
+.dark #cursor {
+    border: none;
+    box-shadow: 0px 0px 9px 0px #fabf0fe0;
+}
+
+.thead-designer-front {
+    display: flex;
+    width: 75vw;
+    height: 9vh;
+    border-radius: 17px;
+    justify-content: flex-end;
+    align-items: center;
+    overflow: hidden;
+}
+
+.thead-designer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 74.3vw;
+    height: 9vh;
+}
+
+.th-designer {
+    height: 100%;
+    width: 24%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.table-designer {
+    height: 100%;
+    width: 24%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    color: #2b2b2b;
+}
+
+.listagem-back-blue {
+    display: flex;
+    width: 75vw;
+    height: 9vh;
+    border-radius: 1em;
+    background: #00B0F2;
+    justify-content: flex-end;
+    align-items: center;
+    overflow: hidden;
+    margin-bottom: 2%;
+}
+
+.listagem-front-white {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 74.3vw;
+    height: 9vh;
+    border-radius: 1em;
+    border: 1px solid #00B0F2;
+    background: #F8F8F8;
+}
+
+.btn-col {
+    display: flex;
+    width: 55%;
+    padding: 6%;
+    justify-content: center;
+    align-items: center;
+    border-radius: .3em;
+    background-color: #157347;
+}
+
+.btn-col-danger .btn-col:nth-child(1) {
+    background-color: #BB2D3B;
+}
+
+.listagem-front-white a:hover {
+    color: inherit;
+}
+
+.width-listagem-front-white {
+    width: 73%;
+}
+
+.editar-deletar {
+    width: 20%;
+}
+
+.border-radius-css {
+    border: 1px solid #00B0F2;
+}
+
+.focus-outline-none-css {
+    outline: none;
+}
+
+.font-css {
+    color: #2b2b2b;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.font-id-css {
+    color: #2b2b2b;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.table-css {
+    display: flex;
+    justify-content: center;
+}
+
+.color-paginacao {
+    color: #2b2b2b;
+
+}
+
+.circle-css {
+    width: 24px;
+    height: 24px;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    background-color: #001821;
+    color: #f5f5f5;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.height-svg {
+    width: 11px;
+    height: 12px;
+
+}
+
+#excluir {
+    display: none;
+}
+
+/***********DARK-MODE-HOME************ */
+
+.dark .titulo {
+    color: #F0F5F6;
+    filter: drop-shadow(0px 0px 3px #ffffff49);
+}
+
+.dark .font-css {
+    color: #2b2b2b;
+}
+
+.dark .font-css-dark {
+    color: #F0F5F6;
+}
+
+.dark .card-home-front-home {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: auto;
+    border-radius: 2em;
+    background: #414141;
+    box-shadow: 0px 0px 10px 0px #00b1f2ee;
+    border: 1px solid #00bbff;
+    transition: all .4s ease;
+}
+
+.dark .listagem-back-blue {
+    box-shadow: 0px 0px 9px 0px #00b1f2ee;
+}
+
+.dark .listagem-front-white:hover {
+    background-color: #414141;
+    cursor: pointer;
+    transition: all .4s ease-in-out;
+}
+
+.dark .listagem-front-white:hover span {
+    color: #F0F5F6;
+    transition: all .4s ease-in-out;
+}
+
+.dark .listagem-front-white:hover a {
+    color: #F0F5F6;
+    transition: all .4s ease-in-out;
+}
+
+.dark .listagem-front-white:hover .font-id-css {
+    color: #F0F5F6;
+}
+
+.dark .border-radius-css {
+    border: 1px solid #00B0F2;
+    box-shadow: 0em 0em .5em 0em #00b1f2;
+}
+
+.dark .color-paginacao {
+    color: #F0F5F6;
+}
+
+.dark .circle-css {
+    background-color: #f5f5f5;
+    color: #2b2b2b;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+/* solicitação entevista */
+.card-home-back-2 {
+    width: 34%;
+    height: 19vh;
+    border-radius: 2em;
+    background: #00B0F2;
+    display: flex;
+    box-shadow: 0em 0em 0.7em 0em #38383877;
+
+}
+
+.card-home-front-2 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 98%;
+    height: auto;
+    border-radius: 2em;
+    background: #003F56;
+}
+
+.card-home-front-2:hover {
+    cursor: pointer;
+}
+
+
+.dark .card-home-front-2 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: auto;
+    border-radius: 2em;
+    background: #414141;
+    box-shadow: 0px 0px 10px 0px #00b1f2ee;
+    border: 1px solid #00bbff;
+    transition: all .4s ease;
+}
+
+#card {
+    border-radius: .8em;
+    border: 1px solid #00B0F2;
+    box-shadow: 0em 0em 0.7em 0em #38383877;
+}
+
+.dark #card {
+    box-shadow: 0px 0px 10px 0px #00b1f2ee;
+}
+
+.background {
+    background-color: #F8F8F8;
+}
+
+

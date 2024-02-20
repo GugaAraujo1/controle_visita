@@ -1,0 +1,98 @@
+@media only screen and (min-width: 1400px) {
+    .titulo {
+        font-size: 6rem;
+    }
+
+    .titulo-card {
+        font-size: 5rem;
+    }
+
+    .card-home-back {
+        border-radius: 8em;
+        z-index: 1;
+    }
+
+    .card-home-front-home {
+        border-radius: 8em;
+    }
+
+    .dark .card-home-front-home {
+        border-radius: 8em;
+    }
+
+
+    .listagem-back-blue {
+        border-radius: 4.5em;
+    }
+
+    .listagem-front-white {
+        border-radius: 4.5em;
+    }
+
+    .dark .listagem-back-blue {
+        box-shadow: 0px 0px 35px 0px #00b1f2ee;
+    }
+
+    .th-designer {
+        font-size: 4rem;
+    }
+
+    .table-designer {
+        font-size: 4rem;
+    }
+
+    .font-id-css {
+        font-size: 4rem;
+    }
+
+    .btn-col {
+        width: 55%;
+        padding: 6%;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .circle-css {
+        width: 100px;
+        height: 100px;
+    }
+
+    .font_Pagina_Atual {
+        font-size: 4rem;
+    }
+
+    .color-paginacao {
+        font-size: 4.2rem;
+    }
+
+    .height-svg {
+        width: 59px;
+        height: 60px;
+    }
+
+    .height-pesquisa {
+        font-size: 3.5rem;
+        height: 5vh;
+    }
+    .icon-height{
+        font-size: 4rem;
+    }
+
+}
+@media only screen and (max-width: 1093px) {
+    
+    #flex-column{
+        background-color: rgb(18, 126, 221);
+        display: flex;
+        
+        flex-direction: column;
+    }
+}
+@media only screen and (max-width: 600px) {
+    
+    #flex-column{
+        background-color: rgb(221, 42, 18);
+        display: flex;
+        
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/**********navBar************/
+body{
+    background-color: #F5F5F5;
+} 
+#mudar-thema{
+    display: none;
+    margin-right: 15%;
+}
+.menu-css{
+    width:17vw;
+    height: auto;
+    background: #00719D;
+    padding: 0;
+}
+.sub-menu{
+    margin-top: 40%;
+    height: 100vh;
+    overflow: hidden;
+}
+.font-header{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+}
+.icon-home-css{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: auto;
+    position: relative;  
+}
+.icon-home-css::before{
+    content: "";
+    position: absolute;  
+    background-color: #003F56;
+    width: 3%;
+    height: 12vh;
+    transition: all .5s ease;
+    transform: scaleX(1);
+}
+.icon-home-css:hover::before{ 
+    background: linear-gradient(90deg, #003F56 0%, #ffffff00 70%);
+    transform: scaleX(1);
+    transform-origin: left;
+    width: 18vw;
+}
+#icon-text-home{
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    width:15vw ;
+    height: 12vh;
+    z-index: 1;
+}
+.link-sair-css i:hover{
+    transition: all .6s ease-in-out;
+    width: 60%;
+}
+.text-logout{
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+/***********DARK-MODE-NAVBAR-HOME************ */
+.dark{
+    transition: all .4s ease;
+    background-color: #001D28;
+}
+.dark .menu-css{
+    background: #001720;
+}
+.dark .icon-home-css::before{
+    background-color: #00B0F2;
+}
+.dark .icon-home-css:hover::before{
+    background: linear-gradient(90deg, #00B0F2 0%, #00b1f200 80%);
+
+}
+
+.dark .fa-solid{
+    display: block;
+}
+
+
+/***********DARK-MODE-SOLICITAÇÃO*************/
+.dark .text-title-css {
+    color: #F0F5F6;
+}
+.dark .bg-form-css{
+    box-shadow: 0em 0em .8em 0em  #00b1f2c2;
+}
+.dark .label-css{
+    color: #F0F5F6;
+}
+.dark .label-acesso-css{
+    color: #F0F5F6;
+}
+.dark .btn-submit-css{
+    background-color: #f5f5f5;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    color: #2b2b2b;
+}
+.dark .btn-submit-css:hover{
+    background-color: #001016;
+    color: #F0F5F6;
+}
+
+
+body::-webkit-scrollbar {
+  width: 1.1vw;             
+}
+
+body::-webkit-scrollbar-track {
+  background: #dadada;  
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #00719D;  
+  border-radius: 20px;     
+  border: .2em solid #dadada;
+}
+
+@media only screen and (min-width: 1700px) {
+    .font-header{
+        font-size: 4.5rem;
+    }
+    .icon-large {
+        font-size: 4rem;
+    }
+
+
+}

@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.text-title-css{
+    font-family: 'Montserrat', sans-serif;
+    color: #2b2b2b;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.bg-form-css{
+    box-shadow: 0em 0em .7em 0em  #38383877;
+    border: .1rem solid #00B0F2;
+    border-radius: .8em;
+}
+.label-css{
+    color: #2b2b2b;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 2vh 0vh 1.3vh 0vh;
+}
+.input-css{
+    border-radius: .5em;
+    border: .1rem solid #003F56;
+    height: 5.5vh;
+    padding: 2%;
+    outline:none;
+
+}
+.display-none{
+    display: none;
+}
+.display-flex{
+    display: flex;
+}
+.input-textarea-css{
+    border-radius: .5em;
+    border: .1rem solid #003F56;
+    padding: 2%;
+    outline:none;
+}
+.acesso-css{
+    height: 18vh;
+}
+.label-acesso-css{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    color: #2b2b2b;
+
+}
+.btn-submit-css{
+    width: 90%;
+    height: 7vh;
+    border: 0;
+    border-radius: .5em;
+    background-color: #003F56 ;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    color:#ECECEC;
+    transition: all .4s;
+}
+.btn-submit-css:hover{
+    background-color: #011822 ;
+    cursor: pointer;
+
+}
+#motivo_visita{
+    border-radius: 0.5rem;
+    margin-top: 3vh;
+    padding: 3%;
+}
+
+/* solicitação_entrevista */
+.color{
+    background-color: #00719D;
+    padding: 2%;
+    width: 50%;
+    border: 0;
+    border-radius: .3em;   
+}
+.hidden{
+    display:none;
+}

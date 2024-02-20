@@ -1,0 +1,16 @@
+.progresso {
+    width: 70%;
+    height: .7rem;
+    display: flex;
+    border-radius: 2em;
+    overflow: hidden;
+    background-color: #afafaf;
+}
+
+.progress-bar {
+    height: auto;
+    transition: ease-in-out 2s; /* Animação suave */
+}
+.width{
+    width: 100%;
+}

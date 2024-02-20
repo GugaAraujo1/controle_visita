@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/**********navBar************/
+body{
+    background-color: #F5F5F5;
+} 
+.menu-css{
+    width:17vw;
+    height: auto;
+    background: #00719D;
+    padding: 0;
+}
+.sub-menu{
+    margin-top: 40%;
+    height: 100vh;
+    overflow: hidden;
+}
+.icon-home-css{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: auto;
+    position: relative;  
+}
+
+.icon-home-css::before{
+    content: "";
+    position: absolute;  
+    background-color: #003F56;
+    width: 3%;
+    height: 12vh;
+    transition: all .5s ease;
+    transform: scaleX(1);
+
+}
+.icon-home-css:hover::before{ 
+    background: linear-gradient(90deg, #003F56 0%, #ffffff00 70%);
+    transform: scaleX(1);
+    transform-origin: left;
+    width: 18vw;
+}
+#icon-text-home{
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    width:15vw ;
+    height: 12vh;
+    z-index: 1;
+}
+
+/* INDEX */
+#btn-primary{
+    background-color: #003F56;
+    border-color: #003F56;
+}

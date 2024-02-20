@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.4.0",
+    "css.gg": "^2.1.1",
+    "dotenv": "^16.3.1",
+    "jquery": "^3.7.0"
+  }
+}
