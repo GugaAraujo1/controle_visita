@@ -19,6 +19,17 @@
     padding: 0% 3% 0% 3%;
     cursor: pointer;
 }
+.card-home-front-success-pendentes{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 98%;
+    height: auto;
+    border-radius: 2em;
+    background: #003F56;
+    padding: 0% 3% 0% 3%;
+    cursor: pointer;
+}
 .card-home-front-success:hover{
     transition: all .6s;
     background: #002a3a;

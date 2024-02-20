@@ -15,12 +15,32 @@ function validarCPF(cpf) {
     return digito1 === parseInt(cpf.charAt(9)) && digito2 === parseInt(cpf.charAt(10));
 }
 
+function validarPeriodoVisita() {
+    let periodoDeInput = document.getElementById('periodo_visita_de');
+    let periodoAteInput = document.getElementById('periodo_visita_ate');
+    let resultadoDiv = document.getElementById('resultado_periodo');
+
+    let periodoDe = new Date(periodoDeInput.value);
+    let periodoAte = new Date(periodoAteInput.value);
+
+    if (periodoAte <= periodoDe) {
+        resultadoDiv.innerText = 'O período de visita deve terminar após o início.';
+        return false;
+    } else {
+        resultadoDiv.innerText = '';
+        return true;
+    }
+}
+
 function validarForm() {
     let cpfInput = document.getElementById('cpf');
     let resultadoDiv = document.getElementById('resultado');
     let form = document.getElementById('myForm'); // Set the form ID
+    var motivoVisita = document.getElementById('motivo_visita').value;
 
-    if (validarCPF(cpfInput.value)) {
+    console.log(motivoVisita)
+
+    if (validarCPF(cpfInput.value) && validarPeriodoVisita() && motivoVisita != "Selecione o motivo da visita") {
         resultadoDiv.innerText = 'CPF válido!';
         form.action = "../DB_Querys/solicitacaoController.php"; // Set the action for valid CPF
         return true; // Allow form submission
@@ -36,6 +56,7 @@ function validarForm_Update() {
     let cpf_Input_Update = document.getElementById('cpf_Input_Update');
     let resultado_Div_Update = document.getElementById('resultado_Div_Update');
     let form_Update = document.getElementById('form_Update');
+    var motivoVisita = document.getElementById('motivo_visita').value;
 
     if (validarCPF(cpf_Input_Update.value)) {
         resultado_Div_Update.innerText = 'CPF válido!';
@@ -47,6 +68,7 @@ function validarForm_Update() {
         form_Update.action = "";
         return false;
     }
+
 }
 
 function adicionarInputIntegracao() {

@@ -27,8 +27,8 @@ $resultado = readVisitasPendentes($dbDB);
     <div class="d-flex flex-row align-items-center justify-content-center mb-5 mt-5">
         <div class="d-flex flex-row col-sm-10 justify-content-around">
             <div class="card-home-back justify-content-end shadow">
-                <div class="card-home-front p-3">
-                    <p class="m-0 text-white titulo-card">Total de visitas pendentes: <?php echo count($resultado) ?></p>
+                <div class="card-home-front p-4">
+                    <p class="m-0 text-white titulo-card p-2">Total de visitas pendentes: <?php echo count($resultado) ?></p>
                 </div>
             </div>
             <div class="card-home-back-success shadow ">

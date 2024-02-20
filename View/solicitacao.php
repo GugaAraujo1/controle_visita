@@ -29,7 +29,6 @@ if (!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true) {
                         <input type="text" placeholder="Nome completo" id="cpf" class="input-css" minlength="11" maxlength="11" name="cpf" required>
                         <div id="resultado"></div>
 
-
                         <label class="label-css" for="celular">Celular do visitante:</label>
                         <input type="text" id="celular" class="input-css" name="celular" required placeholder="celular">
 
@@ -37,10 +36,10 @@ if (!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true) {
                         <input type="email" id="email" class="input-css" name="email" placeholder="email">
 
                         <label class="label-css" for="periodo_visita_de">Período de visita (de):</label>
-                        <input type="datetime-local" id="periodo_visita_de" class="input-css" name="periodo_visita_de">
+                        <input type="datetime-local" id="periodo_visita_de" class="input-css" name="periodo_visita_de" required>
 
                         <label class="label-css" for="periodo_visita_ate">Período de visita (até):</label>
-                        <input type="datetime-local" id="periodo_visita_ate" class="input-css" name="periodo_visita_ate">
+                        <input type="datetime-local" id="periodo_visita_ate" class="input-css" name="periodo_visita_ate" required>
                     </div>
 
                     <div class="d-flex flex-column col-sm-5">
